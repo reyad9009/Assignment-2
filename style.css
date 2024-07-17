@@ -55,9 +55,9 @@ body{
     display: none !important;
 }
 /* nevbar end */
-@media screen and (max-width: 576px){
+@media (max-width: 576px){
     .nav_links{
-        display: none;
+        display: none !important;
     }
     .icon_bars > i{
         color: white;
