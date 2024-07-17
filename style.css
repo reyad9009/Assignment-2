@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+/* nevbar start */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 80%;
+    margin-top: 40px;
+
+    
+}
+.logo a {
+    color: #E6533C;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 47px;
+    border: 1px solid #2f2f2f;
+    padding: 10px 2px 10px 2px;
+    border-radius: 46px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+}
+.home_btn{
+    background-color: #E6533C;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+}
+.home_btn:hover{
+    background-color: #000000;
+    transition: 0.3s ease-out;
+}
+.nav-links a:hover {
+    background-color: #E6533C;
+    transition: 0.3s ease-out;
+}
+/* nevbar end */
