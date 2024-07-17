@@ -9,6 +9,7 @@ body{
     justify-content: center;
     background-color: #000000;
 }
+
 /* nevbar start */
 .navbar {
     display: flex;
@@ -17,8 +18,6 @@ body{
     padding: 10px 10px;
     width: 80%;
     margin-top: 40px;
-
-    
 }
 .logo a {
     color: #E6533C;
@@ -27,7 +26,7 @@ body{
     font-weight: bolder;
     font-style: italic;
 }
-.nav-links {
+.nav_links {
     display: flex;
     list-style: none;
     text-align: center;
@@ -36,8 +35,7 @@ body{
     padding: 10px 2px 10px 2px;
     border-radius: 46px;
 }
-
-.nav-links a {
+.nav_links a {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
@@ -49,12 +47,23 @@ body{
     padding: 8px 20px 8px 20px;
     border-radius: 46px;
 }
-.home_btn:hover{
-    background-color: #000000;
-    transition: 0.3s ease-out;
-}
-.nav-links a:hover {
+.nav_links a:hover {
     background-color: #E6533C;
     transition: 0.3s ease-out;
 }
+.icon_bars > i{
+    display: none !important;
+}
 /* nevbar end */
+@media screen and (max-width: 576px){
+    .nav_links{
+        display: none;
+    }
+    .icon_bars > i{
+        color: white;
+        display: block !important;
+        font-size: 30px;
+    }
+    
+
+}
