@@ -55,7 +55,7 @@ body{
     display: none !important;
 }
 /* nevbar end */
-@media (max-width: 576px){
+@media screen and (max-width: 576px){
     .nav_links{
         display: none !important;
     }
