@@ -296,3 +296,103 @@ header{
     zoom: 70%;
 }
 /*=============  Run an Extra Mile Easily section 2 end =============*/
+
+/*============= BMI Calculator header section 3 start =============*/
+.bmi__header_texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+}
+.bmi_texts{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.bmi__header_texts h1{
+    font-size: 48px;
+}
+.bmi__header_texts p{
+    color: var(--describing_text_color);
+    padding-top: 25px;
+}
+/*============= BMI Calculator header section 3 end =============*/
+
+/*============= BMI Calculator section 4 start=============*/
+.bmi_calculator{
+    background-color: var(--bg_secondary_color);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.chart_and_bmi_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+th, td {
+    border: 1px solid  #373737;
+    padding: 12px;
+    text-align: left;
+}
+th{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+td{
+    color: var(--describing_text_color);
+    font-size: 16px;
+}
+.bmi_calculator_section{
+    width: 55%;
+}
+.Calculator_header p{
+    color: var(--describing_text_color);
+    line-height: 25px;
+    margin-top: 20px;
+}
+.Calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+.input_items{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.inputs, .select_activity{
+    padding: 15px 15px 15px 15px;
+    background-color: #373737;
+    color: var(--describing_text_color);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.inputs{
+    width: 100%;
+}
+.select_activity{
+    width: 100%;
+    box-sizing: border-box;
+}
+.Calculate_btn{
+    font-size: 16px;
+    padding: 15px 60px;
+    border-radius: 42px;
+    background-color: var(--btn_color);
+    border: none;
+    color: var(--title_text_color);
+    margin-top: 20px;
+}
+/*============= BMI Calculator section 4 end =============*/
