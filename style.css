@@ -396,3 +396,61 @@ td{
     margin-top: 20px;
 }
 /*============= BMI Calculator section 4 end =============*/
+
+/*============= Meet Our Team section 5 start =============*/
+.meet_our_team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 90px;
+}
+.section5_header_text{
+    text-align: center;
+    width: 65%;
+    margin-top: 80px;
+}
+.section5_header_text > h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.section5_header_text > p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: var(--describing_text_color);
+}
+.section5_imgs{
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    padding: 15px;
+    gap: 20px;
+    border-radius: 12px;
+}
+.section5_imgs  img{
+    position: relative;
+    width: 350px;
+    height: 280px;
+}
+.s5_img{
+    display: flex;
+    gap: 20px;
+}
+.img_in_div{
+    width: 330px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trainer_Name{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -170px;
+}
+/*============= Meet Our Team section 5 end =============*/
