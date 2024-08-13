@@ -185,6 +185,116 @@ header{
 }
 /*============= Header end =============*/
 
+/*============= Choose Your Plan special section start =============*/
+.choose_plan{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--bg_secondary_color);
+    width: 100%;
+}
+.special_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sp_header_text{
+    text-align: center;
+    width: 100%;
+    margin-top: 70px;
+}
+.sp_header_text > h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.sp_header_text > p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: var(--describing_text_color);
+}
+.sp_Containers{
+    margin-top: 70px;
+    padding-bottom: 90px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.sp_card{
+    background-color: #464646;
+    text-align: center;
+    border-radius: 16px;
+    width: 300px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discover{
+    color: var(--title_text_color);
+}
+.sp_card h1{
+    padding: 30px 0px 30px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.months{
+    font-size: 16px;
+}
+.sp_card li{
+    color: var(--describing_text_color);
+    padding: 0px 0px 20px 0px;
+    list-style: none;
+}
+.card_btn{
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: var(--btn_color);
+    border: none;
+    color: var(--title_text_color);
+    margin-top: 10px;
+}
+.sp_card2{
+    background-color: tomato;
+    text-align: center;
+    border-radius: 16px;
+    width: 300px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sp_card2 h1{
+    padding: 30px 0px 30px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.sp_card2 span{
+    font-size: 16px;
+}
+.sp_card2 li{
+    color: whitesmoke;
+    padding-bottom: 20px;
+    list-style:none;
+    font-size: 16px;
+}
+.card_btn2{
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: white;
+    border: none;
+    color: var(--btn_color);
+    margin-top: 10px;
+}
+
+/*============= Choose Your Plan special section end =============*/
+
 /*=============  Change Your Habits section 1 start =============*/
 .change_your_habits{
     display: flex;
@@ -519,7 +629,7 @@ footer{
 }
 /*=============  Footer end ============= */
 
-/*=============  Responsive for mobile ============= */
+/*=============  Responsive for mobile 576 ============= */
 @media screen and (max-width: 576px){
     body{
         height: auto;
@@ -595,7 +705,17 @@ footer{
         top: 70%;
     }
     /*============= Header end =============*/
-   
+
+    /*============= Choose Your Plan special section end =============*/
+    .sp_Containers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sp_header_text{
+        width: 90%;
+    }
+    /*============= Choose Your Plan special section end =============*/
+
     /*=============  Change Your Habits section 1 start =============*/
     .s1_Containers{
         flex-direction: column;
